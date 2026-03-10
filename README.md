@@ -6,6 +6,24 @@ El sistema permite gestionar productos, controlar inventario, registrar ventas y
 Este proyecto fue construido utilizando Vue 3 y Vite, aprovechando su rendimiento y arquitectura basada en componentes para desarrollar una aplicación moderna, escalable y fácil de mantener.
 
 El objetivo del sistema es digitalizar los procesos principales de una farmacia pequeña o mediana, permitiendo tener un mejor control del stock, mejorar el registro de ventas y facilitar la consulta de información del negocio.
+
+
+## Tecnologías utilizadas
+El proyecto fue desarrollado utilizando herramientas modernas del ecosistema JavaScript.
+
+Vue 3
+
+Vite
+
+JavaScript / TypeScript
+
+Node.js
+
+Vitest para pruebas unitarias
+
+Playwright para pruebas end-to-end
+
+ESLint para control de calidad del código
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
