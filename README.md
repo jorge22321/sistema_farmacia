@@ -1,7 +1,11 @@
 # Sistema_Farmacia.vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación web desarrollada para la administración básica de una farmacia.
+El sistema permite gestionar productos, controlar inventario, registrar ventas y administrar clientes desde una interfaz simple y eficiente.
 
+Este proyecto fue construido utilizando Vue 3 y Vite, aprovechando su rendimiento y arquitectura basada en componentes para desarrollar una aplicación moderna, escalable y fácil de mantener.
+
+El objetivo del sistema es digitalizar los procesos principales de una farmacia pequeña o mediana, permitiendo tener un mejor control del stock, mejorar el registro de ventas y facilitar la consulta de información del negocio.
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
