@@ -24,6 +24,117 @@ Vitest para pruebas unitarias
 Playwright para pruebas end-to-end
 
 ESLint para control de calidad del código
+
+## Funcionalidades del sistema
+
+El sistema se organiza en diferentes módulos que cubren los procesos principales de una farmacia, permitiendo gestionar ventas, inventario, recetas médicas y administración general desde una sola plataforma.
+
+---
+
+### Panel principal
+
+Pantalla inicial del sistema que permite acceder rápidamente a los diferentes módulos de gestión y visualizar las opciones principales del sistema.
+
+---
+
+### Punto de venta
+
+Módulo encargado de registrar las ventas realizadas en la farmacia.
+
+**Funciones principales:**
+
+- Registrar ventas de medicamentos
+- Calcular totales automáticamente
+- Gestionar productos dentro de una venta
+- Registrar transacciones del día
+
+---
+
+### Dispensación
+
+Módulo orientado al control y gestión de recetas médicas.
+
+#### Dispensador de recetas
+
+- Registro de recetas médicas
+- Asociación de medicamentos con la receta
+- Control de dispensación de medicamentos
+
+#### Historial
+
+- Registro histórico de recetas dispensadas
+- Consulta de operaciones realizadas
+
+---
+
+### Inventario
+
+Módulo encargado de la gestión completa del inventario de medicamentos.
+
+#### Control de productos
+
+Permite administrar el catálogo de medicamentos disponibles en el sistema.
+
+#### Añadir lote
+
+- Registro de nuevos lotes de medicamentos
+- Control de entrada de productos al inventario
+
+#### Ver lotes (stock)
+
+- Consulta de lotes disponibles
+- Visualización de cantidades actuales en inventario
+
+#### Ver productos
+
+Listado completo de medicamentos registrados en el sistema.
+
+#### Ver categorías
+
+Administración y clasificación de medicamentos por categorías.
+
+---
+
+### Informes
+
+Sección dedicada a la visualización de información relevante del negocio.
+
+#### Informe de ventas
+
+- Reportes de ventas realizadas
+- Análisis básico de transacciones
+
+#### Lotes por vencer
+
+- Identificación de medicamentos próximos a vencer
+- Control preventivo de productos caducados
+
+#### Stock bajo
+
+- Detección de productos con bajo inventario
+- Apoyo para la reposición de medicamentos
+
+---
+
+### Administración
+
+Módulo de configuración y gestión interna del sistema.
+
+#### Empleados
+
+- Gestión del personal que utiliza el sistema
+- Registro y administración de usuarios del sistema
+
+#### Ubicaciones
+
+- Configuración de ubicaciones dentro del inventario
+- Organización física de productos
+
+#### Laboratorios
+
+- Registro de laboratorios o proveedores de medicamentos
+- Asociación de productos con sus fabricantes
+- 
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
